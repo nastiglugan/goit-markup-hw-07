@@ -564,7 +564,6 @@ body {
 
 .filter {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
   gap: 8px;
 }
@@ -595,6 +594,9 @@ body {
 }
 
 /* Portfolio */
+.portfolio__filter {
+  margin-bottom: 50px;
+}
 
 .portfolio__container {
   padding-top: 20px;
