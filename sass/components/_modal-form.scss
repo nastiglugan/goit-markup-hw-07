@@ -1,56 +1,3 @@
-/*MANE PAGE*/
-
-/* Header */
-
-/* Header block */
-
-/* Logo block */
-
-/* Navigation block */
-
-/* Header block's elements */
-
-/* header end */
-
-/* Intro section */
-
-/* Feature section */
-
-/* Я так вирішила зробити, а потім мені написали, 
-що треба через флекси, а чого так не можно?*/
-
-/* .feature-item {
-  padding-top: 25px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--background-color-light) 120px,
-    var(--color-white) 120px
-  );
-}
-
-.feature-icon {
-  display: block;
-  margin-bottom: 55px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* Service section */
-
-/* Team section */
-
-/* Clients section */
-
-/* Footer */
-
-/*PORTFOLIO PAGE*/
-
-/* Filter */
-
-/* Portfolio */
-/* Modal */
-
-/* Modal form */
 .modal-form {
   margin-left: auto;
   margin-right: auto;
@@ -103,27 +50,30 @@
 .modal-form__input {
   height: 40px;
   padding: 11px 12px 11px 42px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--color-blue);
+  }
 }
 
 .modal-form__textarea {
   padding: 12px 16px;
   height: 120px;
   resize: none;
-}
 
-.modal-form__textarea::placeholder {
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.01em;
+  &::placeholder {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
 
-  color: rgba(117, 117, 117, 0.5);
-}
+    color: rgba(117, 117, 117, 0.5);
+  }
 
-.modal-form__input:hover,
-.modal-form__input:focus,
-.modal-form__textarea:hover,
-.modal-form__textarea:focus {
-  border: 1px solid var(--color-blue);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--color-blue);
+  }
 }
 
 .modal-form__icon {
@@ -185,59 +135,3 @@
   color: var(--color-blue);
   text-underline-position: under;
 }
-
-/* .modal-checkbox__link::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  content: '';
-  height: 1px;
-  width: 100%;
-  background-color: var(--color-blue);
-} */
-
-/* Checkbox як у Ярославa */
-/* .agreement-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 25px;
-}
-
-.agreement-checkbox__icon {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  transition: fill var(--transition-basic);
-}
-
-.agreement-checkbox__input:hover + .agreement-checkbox__icon,
-.agreement-checkbox__input:focus + .agreement-checkbox__icon {
-  fill: var(--color-blue);
-}
-
-.agreement-checkbox__input:checked + .agreement-checkbox__icon .agreement-checkbox__uncheck {
-  opacity: 0;
-  transition: opacity var(--transition-basic);
-}
-
-.agreement-checkbox__check {
-  opacity: 0;
-  transition: opacity var(--transition-basic);
-}
-
-.agreement-checkbox__input:checked + .agreement-checkbox__icon .agreement-checkbox__check {
-  opacity: 1;
-}
-
-.agreement-checkbox__text {
-  user-select: none;
-  font-size: 14px;
-}
-
-.agreement-checkbox__link {
-  color: #2196f3;
-  text-underline-position: under;
-} */

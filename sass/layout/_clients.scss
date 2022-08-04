@@ -1,0 +1,30 @@
+.clients__list {
+  --items: 6;
+}
+
+.clients__link {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-icon);
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color var(--transition-basic);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
+  }
+}
+
+.clients__icon {
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+}

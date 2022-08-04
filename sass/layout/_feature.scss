@@ -1,0 +1,18 @@
+.feature__wrapper-icon {
+  padding: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color-light);
+}
+
+.feature__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature__desc {
+  color: var(--color-ligt);
+}
