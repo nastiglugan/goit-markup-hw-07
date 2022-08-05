@@ -2,6 +2,10 @@
   background-color: var(--background-color-light);
 }
 
+.team__list {
+  @extend %reset-list;
+}
+
 .team__item {
   background-color: var(--color-white);
   font-size: 16px;

@@ -12,10 +12,14 @@
 }
 
 .portfolio__list {
+  @extend %reset-list;
+
   --items: 3;
 }
 
 .portfolio__link {
+  @extend %reset-link;
+
   display: block;
   transition: box-shadow var(--transition-basic);
 

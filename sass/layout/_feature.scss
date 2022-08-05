@@ -7,6 +7,10 @@
   background-color: var(--background-color-light);
 }
 
+.feature__list {
+  @extend %reset-list;
+}
+
 .feature__title {
   margin-bottom: 10px;
   font-size: 14px;

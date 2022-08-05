@@ -1,8 +1,12 @@
 .clients__list {
+  @extend %reset-list;
+
   --items: 6;
 }
 
 .clients__link {
+  @extend %reset-link;
+
   height: 92px;
   display: flex;
   align-items: center;

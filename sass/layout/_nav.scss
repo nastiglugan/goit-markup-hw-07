@@ -1,9 +1,13 @@
 .nav__list {
+  @extend %reset-list;
+
   display: flex;
   gap: 50px;
 }
 
 .nav__link {
+  @extend %reset-link;
+
   position: relative;
   display: block;
   padding-top: 32px;

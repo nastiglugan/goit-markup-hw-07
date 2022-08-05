@@ -37,6 +37,15 @@
   overflow: hidden;
 }
 
+.portfolio__link, .adress__link, .clients__link, .nav__link, .logo, .header__contact-link, .social__link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.portfolio__list, .adress__list, .clients__list, .team__list, .service__list, .feature__list, .nav__list, .header__contact-list, .filter, .social {
+  list-style: none;
+}
+
 body {
   font-family: var(--main-font);
   color: var(--color-dark);
@@ -55,15 +64,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-}
-
-.link {
-  text-decoration: none;
-  color: currentColor;
-}
-
-.list {
-  list-style: none;
 }
 
 img {
