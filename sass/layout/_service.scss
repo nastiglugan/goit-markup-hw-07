@@ -1,4 +1,5 @@
 .service {
+  @include section();
   padding-top: 0;
 }
 

@@ -1,7 +1,6 @@
 .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center();
+
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;

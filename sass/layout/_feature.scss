@@ -1,9 +1,12 @@
+.feature {
+  @include section();
+}
 .feature__wrapper-icon {
+  @include flex-center();
+
   padding: 25px;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background-color: var(--background-color-light);
 }
 
